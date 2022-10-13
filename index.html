@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-conatiner">
+                    <img src="img/logo.png" alt="logo" id="logo">
+                    <ul>
+                        <li><a href="#">Encontrar vagas</a></li>
+                        <li><a href="#">Enviar vagas</a></li>
+                        <li><a href="#">Contatos</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="main-banner">
+                <!-- <img id="main-banner" src="./img/banner5.jpg" alt=""> -->
+                <div id="search-form">
+                    <h1>A maneira mais fácil de encontrar seu novo emprego</h1>
+                    <p>
+                        Conecte-se de forma gratuíta as melhores empresas e
+                        consiga o emprego dosseus sonhos.
+                    </p>
+                    <form action="">
+                        <input type="text" name="job" placeholder="Digite o cargo">
+                        <select name="region">
+                            <option value="">Todos os estados</option>
+                        </select>
+                        <select name="category" id="">
+                            <option value="">Categoria</option>
+                        </select>
+                        <input type="submit" value="pesquisar">
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <main id="lastjobs-container" class="wrapper">
+            <h1>Últimas vagas enviadas</h1>
+            <ul>
+                <li>
+                    <a href="#" class="clickarea"></a>
+                    <div class="company-box">
+                        <img src="img/googlelogo.png" alt="google">
+                        <div class="company-info">
+                            <h3>Developer</h3>
+                            <p>google</p>
+                        </div>
+                    </div>
+                    <div class="locality">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Mountain View, california</p>
+                    </div>
+                    <div class="job-type">
+                        <span class="clt">CLt</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="clickarea"></a>
+                    <div class="company-box">
+                        <img src="img/ibmlogo.png" alt="IBM">
+                        <div class="company-info">
+                            <h3>DBA</h3>
+                            <p>IBM</p>
+                        </div>
+                    </div>
+                    <div class="locality">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Armonk, New York</p>
+                    </div>
+                    <div class="job-type">
+                        <span class="pj">pj</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="clickarea"></a>
+                    <div class="company-box">
+                        <img src="img/linkedinlogo.png" alt="linkedin">
+                        <div class="company-info">
+                            <h3>Front Developer</h3>
+                            <p>Linkedin</p>
+                        </div>
+                    </div>
+                    <div class="locality">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Sunnyvale, California</p>
+                    </div>
+                    <div class="job-type">
+                        <span class="home">Home Office</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="clickarea"></a>
+                    <div class="company-box">
+                        <img src="img/facebooklogo.png" alt="facebook">
+                        <div class="company-info">
+                            <h3>Full Stack Developer</h3>
+                            <p>Facebook</p>
+                        </div>
+                    </div>
+                    <div class="locality">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Menlo Park, california</p>
+                    </div>
+                    <div class="job-type">
+                        <span class="pj">pj</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="btnjobs-container">
+                <a href="#" class="btn-jobs">Ver mais vagas</a>
+            </div>
+        </main>
+        <section id="sendjobs-container">
+            <div id="sendjobs-inner" class="wrapper">
+                <h2>Envie uma vaga que sere vista por milhares de candidatos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat finibus neque, in molestie
+                    venenatis. Curabitur iaculis, risus sit amet consectetur pulvinar, ante risus tincidunt turpis, in
+                    accumsan arcu metus quis mi. Aenean facilisis pretium nibh ac egestas. Ut vel leo quis ex faucibus
+                    condimentum.</p>
+                <a href="#" class="light-btn">Enviar vaga</a>
+            </div>
+        </section>
+        <section id="status-container" class="wrapper">
+            <h2 class="title-center">Estatisticas do jobfinder</h2>
+            <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat finibus neque, in
+                molestie
+                venenatis. Curabitur iaculis, risus sit amet consectetur pulvinar, ante risus tincidunt turpis, in
+                accumsan arcu metus quis mi. Aenean facilisis pretium nibh ac egestas. Ut vel leo quis ex faucibus
+                condimentum.</p>
+                <div>
+                    <div class="status-box">
+                        <span class="status-qtd">150</span>
+                        <p class="status-text">Vagas abertas</p>
+                    </div>
+                    <div class="status-box">
+                        <span class="status-qtd">250</span>
+                        <p class="status-text">Candidatos cadastrados</p>
+                    </div>
+                    <div class="status-box">
+                        <span class="status-qtd">50</span>
+                        <p class="status-text">Empresas participantes</p>
+                    </div>
+                    <div class="status-box">
+                        <span class="status-qtd">550</span>
+                        <p class="status-text">Candidatos</p>
+                    </div>
+                </div>
+        </section>
+    </div>
+</body>
+
+</html>
