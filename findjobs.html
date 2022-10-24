@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobFinder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body>
+    <div class="container" id="findjobs">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" id="logo">
+                    </a>
+                    <i class="bi bi-list btn-menumobile"></i>
+                    <ul>
+                        <li><a href="findjobs.html">Encontrar vagas</a></li>
+                        <li><a href="sendjobs.html">Enviar vagas</a></li>
+                        <li><a href="#">Contatos</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main id="lastjobs-container" class="wrapper">
+            <h1>Busque a sua vaga</h1>
+            <div id="job-finder">
+                <div id="search-form">
+                    <input type="text" name="job" placeholder="Digite o cargo">
+                    <select name="region">
+                        <option value="">Todos os estados</option>
+                    </select>
+                    <select name="category">
+                        <option value="">Categorias</option>
+                    </select>
+                    <input type="submit" value="Pesquisar">
+                </div>
+            </div>
+            <div id="type-filter">
+                <ul>
+                    <li>
+                        <input type="checkbox" checked><label>CLT</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked><label>PJ</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked><label>HOME OFFICE</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked><label>FREEE LANCER</label>
+                    </li>
+                </ul>
+            </div>
+            <ul>
+                <li>
+                    <a href="#" class="clickarea"></a>
+                    <div class="company-box">
+                        <img src="img/googlelogo.png" alt="google">
+                        <div class="company-info">
+                            <h3>Developer</h3>
+                            <p>google</p>
+                        </div>
+                    </div>
+                    <div class="locality">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Mountain View, california</p>
+                    </div>
+                    <div class="job-type">
+                        <span class="clt">CLt</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="clickarea"></a>
+                    <div class="company-box">
+                        <img src="img/ibmlogo.png" alt="IBM">
+                        <div class="company-info">
+                            <h3>DBA</h3>
+                            <p>IBM</p>
+                        </div>
+                    </div>
+                    <div class="locality">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Armonk, New York</p>
+                    </div>
+                    <div class="job-type">
+                        <span class="pj">pj</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="clickarea"></a>
+                    <div class="company-box">
+                        <img src="img/linkedinlogo.png" alt="linkedin">
+                        <div class="company-info">
+                            <h3>Front Developer</h3>
+                            <p>Linkedin</p>
+                        </div>
+                    </div>
+                    <div class="locality">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Sunnyvale, California</p>
+                    </div>
+                    <div class="job-type">
+                        <span class="home">Home Office</span>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="clickarea"></a>
+                    <div class="company-box">
+                        <img src="img/facebooklogo.png" alt="facebook">
+                        <div class="company-info">
+                            <h3>Full Stack Developer</h3>
+                            <p>Facebook</p>
+                        </div>
+                    </div>
+                    <div class="locality">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>Menlo Park, california</p>
+                    </div>
+                    <div class="job-type">
+                        <span class="pj">pj</span>
+                    </div>
+                </li>
+            </ul>
+            <div class="btnjobs-container">
+                <a href="#" class="btn-jobs">Carregar mais vagas</a>
+            </div>
+        </main>
+
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="img/logo.png" alt="logo">
+                        <h2>JobFinder</h2>
+                        <p>A maneira mais facil de encontrar seu proprio emprego</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="articles-footer">
+                        <h2>Artigos recentes</h2>
+                        <ul class="footer-list footer-article-list">
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise ?</a>
+                                <span class="article-date">05 de janeiro de 2078</span>
+                            </li>
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise ?</a>
+                                <span class="article-date">05 de janeiro de 2078</span>
+                            </li>
+                            <li>
+                                <a href="#">Como conseguir o primeiro emprego em tempos de crise ?</a>
+                                <span class="article-date">05 de janeiro de 2078</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Nos econtre nas redes sociais</h2>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>
+                                <span> Facebook </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                                <span> Linkedin</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="icons">
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>
+                                <span> Instagram </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    Mais um
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
